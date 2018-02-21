@@ -1,0 +1,320 @@
+@charset "utf-8";
+@import url(http//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+/* CSS Document */
+
+.navigation{
+	background: #fff;
+	height:49px;
+	display:block;
+	margin-left:-10px;
+	padding-right:14px;
+	width:102%;
+	bottom:0px;
+	position:fixed!important;
+	z-index:9999;
+}
+
+.center-text{
+	padding-top:150px;
+	text-align:center;
+}
+
+*{
+	margin:0px;
+	border:0px;
+	padding:0px;
+	font-family:'PT Sans', sans-serif;
+	-webkit-text-size-adjust:none; /*取消浏览器最小字体限制*/
+}
+
+.empty-clear-menu{
+	height:50px;
+}
+
+.clear{
+	clear:both;
+}
+
+body{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.header-deco{
+	background-image:url(../images/background/header-deco.png);
+	background-repeat:repeat-x;
+	height:7px; 
+	margin-left:-10px;
+	padding-right:10px;
+	width:103%;
+	margin-top:-3px;
+}
+
+.header{
+	padding-top:15px;
+	margin-bottom:15px;
+}
+
+.social-icons{
+	float:right;
+}
+
+.social-icons img{
+	padding-left:10px;
+}
+
+.decoration{
+	background-image:url(../images/background/deco_style_1.png);
+	height:2px;
+	width:100%;
+	display:block;	
+	background-repeat:repeat-x;
+	padding-bottom:15px; 
+}
+
+.image-deco{
+	padding:3px;
+	-webkit-box-shadow: 0px 1px 1px 1px rgba(202, 202, 202, 0.8);
+	-moz-box-shadow: 0px 1px 1px 1px rgba(202, 202, 202, 0.8);
+	box-shadow: 0px 1px 1px 1px rgba(202, 202, , 0.8);
+}
+
+.image-width{
+	width:98%;	
+}
+
+.home strong{
+	text-align: center;
+	font-size: 20px;
+	font-family:'PT Sans', sans-serif;
+}
+
+.round-icon{
+	float:left;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	width:50px;
+	height:50px;
+	padding-right:60px;
+	padding-bottom:2px;
+	margin-top:10px;
+}
+
+.footer{
+	border-top-style:solid;
+	border-top-width:3px;
+	border-top-color:#CCC;
+	background-image:url(../images/background/footer-bg.png);
+	background-repeat:repeat;
+	margin-left:-10px;
+	width:102%;
+	padding-right:10px;
+	margin-bottom:-1px;
+}
+
+/*////////////*/
+/*  Wen   Du  */
+/*////////////*/
+
+
+.wendu span{
+	text-align:center;
+	display:block;
+	font-size:25px;
+	font-family:"幼圆";
+	font-weight:bold;
+	color:black;
+}
+
+#wenduji{
+	text-align:center;
+	margin-top:100px;
+}
+
+.wendu p{
+	color:#800000;
+	font-size:28px;
+	text-align:center;
+	font-family:"华文新魏";
+	line-height:30px;
+}
+
+
+/*////////////*/
+/*Guang   Zhao*/
+/*////////////*/
+
+.guangzhao img{
+	width:103%;
+	height:400px;
+}
+
+.guangzhao span{
+	text-align:center;
+	display:block;
+	font-size:25px;
+	font-family:"幼圆";
+	font-weight:bold;
+	color:black;
+}
+
+
+/*////////////*/
+/*  kong   qi */
+/*////////////*/
+
+
+.kongqi span{
+	text-align:center;
+	display:block;
+	font-size:25px;
+	font-family:"幼圆";
+	font-weight:bold;
+	color:black;
+}
+
+.kongqi p{
+	color:#800000;
+	font-size:28px;
+	text-align:center;
+	font-family:"华文新魏";
+	line-height:30px;
+}
+
+.kongqi img{
+	width:100%;
+}
+
+
+
+/*////////////*/
+/*Contact Form*/
+/*////////////*/
+
+#nameError{
+	position:absolute;
+	font-size:12px;
+	color:#e34e47;
+	margin-top:-70px;
+	right:10px;
+}
+
+#emailError{
+	position:absolute;
+	font-size:12px;
+	color:#e34e47;
+	margin-top:-70px;
+	right:10px;
+}
+
+#emailError2{
+	position:absolute;
+	font-size:12px;
+	color:#e34e47;
+	margin-top:-70px;
+	right:10px;
+}
+
+#messageError{
+	position:absolute;
+	font-size:12px;
+	color:#e34e47;
+	margin-top:-105px;
+	right:10px;
+}
+
+.contactButton{
+	margin-top:15px;
+	padding: 10px 10px!important; 
+}
+
+.contactBut{
+	padding:8px 10px!important;	
+}
+	
+label#name_label{
+	display:block;
+	margin-top:-10px!important;
+	font-family: 'PT Sans', sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-shadow:0px 1px 0px #ffffff;
+	color:#5b5b5b;
+	line-height:40px;
+	padding-left:3px;
+}
+	
+label#email_label{
+	display:block;
+	font-family: 'PT Sans', sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-shadow:0px 1px 0px #ffffff;
+	color:#5b5b5b;
+	line-height:40px;
+	padding-left:3px;
+}
+	
+label#message_label{
+	display:block;
+	font-family: 'PT Sans', sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-shadow:0px 1px 0px #ffffff;
+	color:#5b5b5b;
+	line-height:40px;
+	padding-left:3px;
+}
+
+#contactName{
+	width:92%;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom:10px;
+	text-transform:capitalize;
+	border-style:solid;
+	border-width:2px;
+	border-color:#cacaca;
+}
+
+#contactName:focus{
+	border-color:#e34e47;
+}
+
+#successMessage{
+	margin-top:-10px!important;
+	padding-bottom:181px;
+}
+	
+#contactEmail{
+	width:92%;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom:10px;
+	text-transform:lowercase;
+	border-style:solid;
+	border-width:2px;
+	border-color:#cacaca;
+}
+
+#contactEmail:focus{
+	border-color:#e34e47;
+}
+	
+#contactMessage{
+	padding:10px;	
+	width:92%;
+	height:50px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#cacaca;
+}
+
+#contactMessage:focus{
+	border-color:#e34e47;
+}
+
+
+
